@@ -17,6 +17,12 @@ public class LenguajesAxelburela {
     public static void main(String[] args) {
         // TODO code application logic here
         System.out.println("Mi primer programa de JAVA");
+        Imc objeto=new Imc();
+        System.out.println(objeto.calcular());
+        float peso=78f;
+        float altura=1.68f;
+   
+        
     }
     
 }
