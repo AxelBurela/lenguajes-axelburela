@@ -1,8 +1,3 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package lenguajes.axelburela;
 
 /**
@@ -19,8 +14,7 @@ public class LenguajesAxelburela {
         System.out.println("Mi primer programa de JAVA");
         Imc objeto=new Imc();
         System.out.println(objeto.calcular());
-        float peso=78f;
-        float altura=1.68f;
+        
    
         
     }
