@@ -16,27 +16,14 @@ public Imc(float p, float a)
     peso=p; 
     altura=a;
     }
-    public float calcular()
+    public String calcular()
     {
+    String mensajito="Nada";
     float resultadoImc=peso/(altura*altura);
-    
-    
-    if(resultadoImc<=20)
-    {
-    System.out.println("Estás bien chirgo");
-    }
-    if(resultadoImc>=20 && resultadoImc<=25)
-    {
-    System.out.println("Estás bien");
-    }
-    if(resultadoImc>=25 && resultadoImc<=30)
-    {
-    System.out.println("Estás medio chonco");
-    }
-    if(resultadoImc>=30)
-    {
-    System.out.println("Estás bien choncho");
-    }
-    return resultadoImc;
+    if(resultadoImc<20)mensajito="Eres toda una anoréxica, moriras";
+    else if(resultadoImc>=20||resultadoImc<25)mensajito="Estás muy bien";
+    else if(resultadoImc>=25||resultadoImc<30)mensajito="Te pasaste de tamales";
+    else mensajito="Eres obeso mórbido, moriras";
+    return mensajito+"Tu Imc es: "+resultadoImc;
 }
 }
