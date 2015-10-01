@@ -1,3 +1,4 @@
+
 /*
  * To change this license header, choose License Headers in Project Properties.
  * To change this template file, choose Tools | Templates
@@ -10,6 +11,11 @@ package lenguajes.axelburela;
  * @author T-107
  */
 public class VentanaImc extends javax.swing.JFrame {
+    
+    
+    
+    
+    86456418648671864789400864864015340561
 
     /**
      * Creates new form VentanaImc
