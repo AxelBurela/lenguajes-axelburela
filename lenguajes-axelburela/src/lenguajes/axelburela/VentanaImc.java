@@ -15,7 +15,7 @@ public class VentanaImc extends javax.swing.JFrame {
     
     
     
-    86456418648671864789400864864015340561
+    
 
     /**
      * Creates new form VentanaImc
